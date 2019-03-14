@@ -105,3 +105,23 @@ git status
 git add .
 git commit -m 'update routes file"
 git commit -m "update routes file"
+git add .
+git commit -m "update routes file"
+git push heroku master
+git status
+git push
+git status
+pwd
+cd my_first_rails-app
+cd my_first_rails_app
+pwd
+git add .
+git commit -m "update routes file"
+git push heroku master
+git push heroku masterbranch:master
+heroku create --buildpack https://github.com/heroku-buildpack-ruby.git
+heroku create --buildpack https://github.com/heroku/heroku-buildpack-node.js.git
+cd my_first_rails_app
+git add .
+git commit -m "update routes file"
+git push heroku master
