@@ -2,11 +2,11 @@
 <application-state>
   <context id="">
     <application id="gnome-control-center.desktop" open-window-count="0" score="51" last-seen="1552603349"/>
-    <application id="firefox.desktop" open-window-count="1" score="59" last-seen="1552602830"/>
-    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="5" last-seen="1552602937"/>
+    <application id="firefox.desktop" open-window-count="1" score="129" last-seen="1552604763"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="5" last-seen="1552604315"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1552348523"/>
-    <application id="code.desktop" open-window-count="1" score="53" last-seen="1552603354"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="508" last-seen="1552603355"/>
+    <application id="code.desktop" open-window-count="1" score="54" last-seen="1552603459"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="629" last-seen="1552604780"/>
     <application id="gnome-initial-setup.desktop" open-window-count="0" score="2" last-seen="1552348451"/>
     <application id="org.gnome.Software.desktop" open-window-count="0" score="24" last-seen="1552351401"/>
   </context>
