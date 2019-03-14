@@ -40,6 +40,21 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/aharon",
+                                        "external": "file:///home/aharon",
+                                        "path": "/home/aharon",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/aharon"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
@@ -158,8 +173,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1369,9 +1383,24 @@
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/aharon"
+        ],
         "files2": [
             "file:///home/aharon/my_first_rails_app/Gemfile"
         ]
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/aharon/.config/Code/Backups/1552601267327",
+            "uiState": {
+                "mode": 1,
+                "x": 448,
+                "y": 186,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
     }
 }

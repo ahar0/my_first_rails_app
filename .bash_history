@@ -64,3 +64,26 @@ git commit -m "initial commit"
 pwd /home/you/odin_on_rails/my_first_rails_app
 
 
+PWD /home/you/odin_on_rails/my_first_rails_app
+pwd /home/you/odin_on_rails/my_first_rails_app
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:ahar0/my_first_rails_app.git
+git push -u origin master
+curl https://cli-assets.heroku.com/install.sh | sh
+heroku version
+heroku keys:add
+heroku create
+git remote show
+ls
+code .
+bundle install --without production
+pwd /home/you/odin_on_rails/my_first_rails_app
+cd my_first_rails_app
+bundle install --without production
+git status
+git add .
+git commit -m 'updates for heroku deployment'
+git push origin master
+git push heroku master
