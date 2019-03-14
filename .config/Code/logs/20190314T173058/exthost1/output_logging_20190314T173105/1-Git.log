@@ -33,3 +33,4 @@ Open repository: /home/aharon
 > git show :my_first_rails_app/config/routes.rb
 > git show :my_first_rails_app/config/spring.rb
 > git show :my_first_rails_app/config/boot.rb
+> git show :my_first_rails_app/config/routes.rb

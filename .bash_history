@@ -96,3 +96,12 @@ heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
 git push heroku master
 remote: https://random-words-73975.herokuapp.com/ deployed to Heroku
 git push masterbranch:master
+git status
+git add .
+git commit -m 'updates for heroku deployment'
+git push origin master
+git push heroku masterbranch:master
+git status
+git add .
+git commit -m 'update routes file"
+git commit -m "update routes file"
