@@ -1,0 +1,77 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "Microsoft Corporation",
+    "Product": "Virtual Machine"
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "090007"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "1",
+    "Threads": "1",
+    "Cores": "1",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "58",
+    "Stepping": "9",
+    "Name": "Intel(R) Core(TM) i5-3550S CPU @ 3.00GHz",
+    "Hypervisor": "Microsoft",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "1414",
+      "Model": "5353"
+    }
+  ],
+  "RAM": 5.3,
+  "Disks": [
+    26.8
+  ],
+  "Partitions": [
+    25.7
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1152x864",
+      "Frequency": "0.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Chicago",
+  "Install": {
+    "Media": "Ubuntu 18.04.2 LTS \"Bionic Beaver\" - Release amd64 (20190210)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "4": "language",
+      "20": "console_setup",
+      "43": "prepare",
+      "53": "partman",
+      "63": "start_install",
+      "105": "timezone",
+      "141": "usersetup",
+      "172": "user_done",
+      "523": "done"
+    }
+  }
+}
